@@ -16,7 +16,16 @@ Pull Requests must perform exactly one of the following actions:
 4. Move a rule from either the immutable_rules directory or the mutable_rules
    directory to the other one, when a rule is transmuted.
 5. Create a new player file in the `players/` directory
-6. Perform some administrative task on the repository, at the discretion of the
+6. Update a player file with a representation of that player's latest score.
+   Pull Requests of this type can happen outside of the normal turn
+   order, and can be merged with the approval of one player other than the one
+   creating the pull request. In order to provide for rapid score updates for
+   the convenience of players, the changes made by such pull requests are
+   recognized as subject to error, and shall not be treated as authoritative
+   for the purpose of determining winners. Nor shall mistakes in the form or
+   meaning of these updates constitute a violation of this rule, but should
+   instead be addressed by simply making further updates by this rule.
+7. Perform some administrative task on the repository, at the discretion of the
    players. Pull Requests of this type can happen outside of the normal turn
    order, must be approved by majority vote of all players, and cannot
    materially affect the operation of the rules or the game. An example of this
